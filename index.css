@@ -29,10 +29,19 @@
     margin: 10px;
 }
 
-/* Search */
+/* Filter */
+
+.filter {
+    display: flex;
+    margin: 10px;
+}
+
+.search {
+    margin-right: 10px;
+}
 
 .filter-btn {
-    margin: 10px;
+    /* margin: 10px; */
     cursor: pointer;
 }
 
@@ -46,7 +55,7 @@
 .res-card {
     margin: 5px;
     padding: 5px;
-    width: 200px;
+    width: 300px;
 }
 
 .res-card:hover {
@@ -56,4 +65,22 @@
 
 .res-logo {
     width: 100%;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-cards {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+
+.login {
+    padding: 0 20px;
+    cursor: pointer;
+    height: 50px;
 }
