@@ -23,7 +23,7 @@ const useRestaurantList = () => {
     );
   };
 
-  return { listOfResturants, filteredRestarunt };
+  return { listOfResturants, filteredRestarunt, setFilteredRestarunt };
 };
 
 export default useRestaurantList;
