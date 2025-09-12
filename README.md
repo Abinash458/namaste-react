@@ -17,3 +17,12 @@
 ## What is `npx`?
 
 - `npx` used to execute the command using npm.
+
+<!-- Redux Tookit -->
+
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- Connect our store to our app
+- Slice (cartSlice)
+- dispatch(action)
+- Selector
